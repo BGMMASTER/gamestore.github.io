@@ -5,10 +5,128 @@
     <title>
       게임저장소
     </title>
+
+        <style>
+
+            {
+                box-sizing:border-box;
+            }
+            #largeline{
+                border:5px solid #2E9AFE;;
+                margin:10px;
+                padding: 10px;
+                width:1100px;
+                float: left;
+            }
+            #smallline{
+                border:1px solid #2E9AFE;
+                margin:5px;
+                width:800px;
+                float: left;
+            }
+            #layout{
+                border:1px solid #2E9AFE;
+                margin : 5px;
+                padding: 10px;
+                width:256px;
+                float: left;
+            }
+            .nav-container {
+                display: flex;
+                flex-direction: row;
+                width: auto;
+                margin: 5px;
+                padding: 0;
+                background-color: #2E9AFE;
+                list-style-type: none;
+            }
+
+            .nav-item {
+                padding: 15px;
+                cursor: pointer;
+            }
+
+            .nav-item a {
+                text-align: center;
+                text-decoration: none;
+                color: white;
+            }
+
+            .nav-item:nth-child(1) {background-color: #2ECCFA;}
+
+            .nav-item:hover {background-color: #0174DF;}
+
+            .gline {
+              width:auto; height: 35px;
+              margin : 10px;
+              background: #2E9AFE;
+              color: white;
+              font-size: 25px;
+              text-align: center;
+            }
+            .tabler{
+              width: 780px;
+              margin : 10px;
+              text-align: center;
+            }
+
+        </style>
+
+
   </head>
 
 <!--BBBBBBBBBBBBBBBBBBBBBBOOOOOOOOOOOOOOOOOOOOOODDDDDDDDDDDDDDDDDYYYYYYYYYYYYYYY-->
   <body>
+    <center>
+      <header border="1">
+        <h1>게임저장소</h1>
+      </header>
 
+    <div id="largeline">
+
+
+<!-- 상단 메뉴바 -->
+      <ul class="nav-container">
+        <li class="nav-item"> <a href="index.html">Home</a></li>
+        <li class="nav-item"> <a href="action.html">액션</a></li>
+        <li class="nav-item"> <a href="shooting.html">슈팅</a></li>
+        <li class="nav-item"> <a href="defense.html">디펜스</a></li>
+        <li class="nav-item"> <a href="horror.html">퍼즐</a></li>
+        <li class="nav-item"> <a href="puzzle.html">공포</a></li>
+        <li class="nav-item"> <a href="sports.html">스포츠</a></li>
+        <li class="nav-item"> <a href="racing.html">레이싱</a></li>
+        <li class="nav-item"> <a href="rpg.html">RPG</a></li>
+      </ul>
+<!-- 상단 메뉴바 닫기 -->
+
+<!-- 작은선 -->
+      <div id="smallline">
+
+<!-- 구분 -->
+        <div class="gline"> 인기게임 </div>
+<!-- 구분 닫기 -->
+
+        <table border="1" class="tabler">
+          <tr>
+            <td width="260px"><a href="file/action/dadandkid.html">
+              <img width="250px" src="file/action/pic/dadandkid.png"/></a>아빠와나</td>
+            <td>zxc</td>
+            <td>zxc</td>
+          </tr>
+        </table>
+
+      </div>
+<!-- 작은선 닫기 -->
+
+<!-- 오른쪽레이아웃 -->
+      <div id="layout">
+        업데이트 예정
+      </div>
+<!-- 오른쪽레이아웃 닫기 -->
+
+    </div>
+
+
+    </center>
   </body>
 </html>
